@@ -1,0 +1,8 @@
+open julia in a terminal
+>] # activate package mode
+>add IJulia # add package to manage and launch jupyter with julia
+press Esc # quit package mode
+>using IJulia
+>notebook()
+sélectionner le fichier .ipynb à ouvrir, avec un noyau julia 1.4.2 (notebooks testés sur cette version, sur une autre version je ne sais pas si ça marche)
+
